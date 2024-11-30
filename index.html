@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .margin {
+        padding: 0px;
+    }
+
+    .header {
+        background-color:lightsteelblue;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .header a {
+        text-decoration: none;
+    }
+
+    .header li {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .row {
+        padding: 100px;
+        justify-content: center;
+        display: flex;
+        height: 200px;
+        align-items: center;
+    }
+
+    .row .box {
+        border: solid 5px silver;
+        padding: 10px;
+        margin: 10px;
+        width: 500px;
+        border-radius: 20px;
+    }
+
+    .row1 {
+        background-color:antiquewhite;
+        padding: 100px;
+        justify-content: center;
+        display: flex;
+        height: 200px;
+        align-items: center;
+    }
+
+    .row1 .box {
+        padding: 10px;
+        margin: 10px;
+        width: 500px;
+        border-radius: 20px;
+    }
+
+    .footer {
+        background-color:ivory;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div>
+        <div class="header">
+            <div>
+                <h1>MY STORE</h1>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <img src="assets/images/1.jpg">
+                <h2>COFFEE</h2>
+                <p>DESCRIPTION</p>
+                Price: 25$ <button>ADD</button>
+            </div>
+
+            <div class="box">
+                <img src="assets/images/2.jpg">
+                <h2>WAFFLES</h2>
+                <p>DESCRIPTION</p>
+                Price: 25$ <button>ADD</button>
+            </div>
+
+            <div class="box">
+                <img src="assets/images/3.jpg">
+                <h2>THICKSHAKE</h2>
+                <p>DESCRIPTION</p>
+                Price: 25$ <button>ADD</button>
+            </div>
+        </div>
+
+        <div class="row1">
+            <img src="assets/images/4.jpg" width="450">
+            <div class="box">
+                <p>Our online store is dedicated to providing an exceptional experience with a wide range of
+                    high-quality beverages and treats. From thick shakes to cold coffee, we offer something for every
+                    taste. We prioritize convenience with an easy-to-use platform and fast, reliable delivery straight
+                    to your doorstep. Our goal is to exceed your expectations, ensuring you're not just satisfied, but
+                    delighted with your purchase. Thank you for choosing us—we are committed to delivering the best
+                    quality and service every time.</p>
+            </div>
+        </div>
+
+        <div class="row1" style="background-color:beige;">
+            <div class="box">
+                <p>Our user-friendly website ensures a smooth and convenient shopping experience, making it easy to
+                    browse and order your favorite items. With fast and reliable delivery, we bring your selections
+                    directly to your door, ensuring freshness and satisfaction. We aim to exceed your expectations,
+                    providing not only great products but a seamless experience from start to finish. Thank you for
+                    choosing us—your satisfaction is our top priority!</p>
+            </div>
+            <img src="assets/images/5.jpg" width="450">
+        </div>
+        <div class="footer">
+            <div>
+                <p>@Copyright 2024.All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
